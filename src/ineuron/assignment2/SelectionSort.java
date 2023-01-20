@@ -23,6 +23,7 @@ public class SelectionSort {
 		int[] data = { 20, -12, 10, 15, 2 };
 	    SelectionSort ss = new SelectionSort();
 	    ss.selectionSort(data);
+	    
 	    System.out.println("Sorted Array in Ascending Order: ");
 	    System.out.println(Arrays.toString(data));
 	}
